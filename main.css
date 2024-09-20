@@ -51,7 +51,7 @@ body {
 /* Header */
 .header {
 	--header-font-size: 4vw;
-	--header-font-weight: 500;
+	font-weight: 500;
 	height: 16vw;
 	max-height: 74px;
 	padding: 0 1rem;
