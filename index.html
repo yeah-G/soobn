@@ -43,8 +43,10 @@
                 $('.switch input').change(function() {
                     if ($(this).is(':checked')) {
                         $('.masking').text('2638312');
+                        $('.address').text('성대로16길 55(예그린) 303호');
                     } else {
                         $('.masking').text('*******');
+                        $('.address').text('');
                     }
                 });
             });
@@ -83,7 +85,7 @@
                     <span class="slider"></span>
                 </label>
                 <p id="j_num" class="num">970130-<em class="masking">*******</em></p>
-                <p style="font-size:14pt">서울특별시 동작구</p>
+                <p style="font-size:14pt">서울특별시 동작구<em class="address"></em></p>
                 <div class="main_bottom">
                     <time style="font-size:14pt" datetime="2013-01-28">2018.03.20</time>
                     <p style="font-size:14pt">서울특별시 동작구청장</p>
